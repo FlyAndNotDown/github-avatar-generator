@@ -5,6 +5,7 @@ public class Main {
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
     }
 
+    // main
     public static void main(String[] args) {
         GithubAvatarGenerator githubAvatarGenerator = new GithubAvatarGenerator();
         for (int i = 1; i <= 20; i ++) {
