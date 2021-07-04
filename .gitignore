@@ -1,5 +1,2 @@
-# JetBrain
 /.idea
-
-# Out
-/out
+/.gradle

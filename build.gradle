@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'pers.kindem.gh.avatar'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainClassName = 'pers.kindem.gh.avatar.Main'
+}
+
+dependencies {
+    implementation 'commons-cli:commons-cli:1.4'
+}
