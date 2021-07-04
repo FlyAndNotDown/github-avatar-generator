@@ -33,7 +33,7 @@ Installing application and dependencies:
 After built the application, you can execute it like this:
 
 ```shell
-.\build\install\gh-avatar-generator\bin\gh-avatar-generator -s amazing_seed -o sample.png
+./build/install/gh-avatar-generator/bin/gh-avatar-generator -s amazing_seed -o sample.png
 ```
 
 The arguments were specificed as follows:
