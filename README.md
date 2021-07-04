@@ -8,13 +8,13 @@
 
 <br/>
 
-Github avatar generator is a java application which is used to generate github-style avatars. There is a sample:
+Github avatar generator is a Java application which is used to generate github-style avatars. There is a sample:
 
 <img src="docs/img/sample1.png" width="200"/>
 
 # Build
 
-Installing at first, here is home page of Gradle: [Gradle]([Gradle](https://gradle.org/install/#manually)).
+Installing Gradle at first, here is home page of Gradle: [Gradle]([Gradle](https://gradle.org/install/#manually)).
 
 Using Gradle to build the application:
 
@@ -22,7 +22,7 @@ Using Gradle to build the application:
 ./gradlew build
 ```
 
-Install application and dependencies:
+Installing application and dependencies:
 
 ```shell
 ./gradlew install
@@ -30,13 +30,13 @@ Install application and dependencies:
 
 # Usage
 
-After building the application, you can execute it like this:
+After built the application, you can execute it like this:
 
 ```shell
 .\build\install\gh-avatar-generator\bin\gh-avatar-generator -s amazing_seed -o sample.png
 ```
 
-The arguments were specificed as follow:
+The arguments were specificed as follows:
 
 * `-s`: seed string, used to generate random color and block info
 * `-o`: output file name
