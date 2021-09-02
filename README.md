@@ -14,8 +14,6 @@ Github avatar generator is a Java application which is used to generate github-s
 
 # Build
 
-Installing Gradle at first, here is home page of Gradle: [Gradle]([Gradle](https://gradle.org/install/#manually)).
-
 Using Gradle to build the application:
 
 ```shell
